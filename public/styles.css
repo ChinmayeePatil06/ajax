@@ -1,0 +1,95 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    background-color: #F9F9F9;
+    height: 100vh;
+    padding: 35px;
+}
+
+#btn
+{
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 15px;
+    font-size: large;
+    padding:8px;
+}
+
+#form
+{
+    display: grid;
+    grid-template-columns: auto auto;
+    width:20%;
+    gap:10px;
+    background-color: #fff;
+    color: #333;
+    font-size: large;
+    padding:20px;
+    padding-top:50px;
+    border-radius: 15px;
+}
+
+
+.field 
+{
+    background-color: #ccc;
+    border-color: #ccc;
+}
+
+#form-div
+{
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    z-index: 1000;
+}
+
+#submit
+{
+    grid-column: span 2;
+    background-color: #007BFF;
+    border-color: #007BFF;
+    color: #fff;
+    font-size: large;
+}
+
+#container
+{
+    padding:20px;
+}
+
+hr
+{
+    margin:10px 0px;
+}
+
+.dark-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); 
+    z-index: 999; 
+}
+  
+#close
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #007BFF;
+    border-color: #007BFF;
+    padding: 7px;
+    color: #fff;
+    font-size: large;
+}
